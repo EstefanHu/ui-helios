@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: color 0.2s;
+        color: var(--text);
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+
+    span {
+        display: flex;
+        justify-content: space-between;
+    }
+}
